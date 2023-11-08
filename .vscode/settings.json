@@ -1,6 +1,9 @@
 {
     "python.formatting.autopep8Path": "/home/johnlu/.local/bin/autopep8",
+    /* should use the autopep8 extension instead. */
+    /* https://github.com/microsoft/vscode-python/wiki/Migration-to-Python-Tools-Extensions */
     "python.linting.pylintEnabled": true,
+    /* should use the Pylint extension */
     "python.analysis.diagnosticSeverityOverrides": {
       "reportGeneralTypeIssues": "none"
     }
